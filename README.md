@@ -1,11 +1,11 @@
 ## This project was developed with:
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [Redux](http://redux.js.org) - Predictable state container for JS apps
-- [Bootstrap] - CSS library
-- [Vite]
+- [Bootstrap](https://getbootstrap.com) - CSS library
+- [Vite](https://vitejs.dev/)
 - [https://fakestoreapi.com/] Fake Api to GET products
 
-# Start de the project
+# Start the project
 
 React program with npm
 
@@ -20,7 +20,7 @@ npm install
 # Dependencies
 
 ```
-Our program was developed with the npm packege managment.
+Our program was developed with the npm package managment.
 The next dependencies must be installed to run the project without any issue.
 Always start writing: npm i
 
