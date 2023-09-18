@@ -14,7 +14,7 @@ const ListProducts = () => {
     });
   };
 
-  if (isLoading) return <h1>Cargando...</h1>;
+  if (isLoading) return <h1 className='text-center mt-5'>Loading...</h1>;
 
   return (
     <>

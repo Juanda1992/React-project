@@ -25,7 +25,7 @@ const footer = () => {
               <div className="mb-3">
                 <p>
                   <b>Phone:</b>{" "}
-                  <a className="footer-tel" href="tel:+1234567890">
+                  <a className="footer-tel" href="tel:+57 310567890">
                     Call us at +57 (310) 567-890
                   </a>
                 </p>{" "}

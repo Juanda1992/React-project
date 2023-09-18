@@ -97,10 +97,9 @@ const ProductDetails = () => {
                 </button>
                 <input
                   className="form-control text-center"
-                  type="number"
                   value={cartItems[product.id]}
                   onChange={(e) =>
-                    updateCartItemCount(Number(e.target.value), product.id)
+                  updateCartItemCount(Number(e.target.value), product.id)
                   }
                 />
                 <button
