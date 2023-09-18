@@ -23,7 +23,7 @@ const Product = ({ product, handleAddToCart }: Props) => {
       <div className="card-body">
         <h5 className="card-title text-center">{product.title}</h5>
         <p className="card-text text-danger text-center mb-4 mt-4">
-          Price:{product.price}
+          Price:${product.price}
         </p>
         <Prod key={product.id} data={product} />
       </div>

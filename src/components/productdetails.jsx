@@ -80,13 +80,7 @@ const ProductDetails = () => {
               <p className="card-text">
                 <span className="text-danger fs-4 me-2">${currentPrice}</span>
               </p>
-              <p className="card-text">{product.description}</p>
-              <p className="card-text mb-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />{" "}
-                Quibusdam tempore unde aperiam, consectetur harum a eum error,{" "}
-                <br /> libero nemo quisquam ex assumenda corrupti rerum aut quod
-                et sint facere reprehenderit?
-              </p>
+              <p className="card-text mb-4">{product.description}</p> 
 
               <div className="d-flex align-items-center mb-3 col-12">
                 <button
@@ -124,7 +118,7 @@ const ProductDetails = () => {
               </div>
             </div>
           </div>
-          <div className="card">
+          <div className="card mt-4">
             <div className="d-flex justify-content-center">
               <h2 className="text-center mb-2">
                 More products of the same category
