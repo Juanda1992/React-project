@@ -14,21 +14,21 @@ type Props = {
 
 const Product = ({product, handleAddToCart}: Props) => {
     return (
-        
-         <Card className="classCardName" >
-            <Card.Img variant="top"  src={product.image} className='card-img'/>
-            <Card.Body> 
-                <Card.Title className='card-title'>{product.title}</Card.Title>
-                <Card.Text  > ${product.price}</Card.Text>  
-                <Prod key={product.id} data={product} />
-
-            </Card.Body>
-        </Card>
-
-        
-
-        
+        <div key={product.id} className="card">
+        <img
+          className="card-img-top-custom"
+          src={product.image}
+          alt={product.title}
+          style={{ width: '100%', height: '400px', objectFit: 'fill' }}
+        />
+        <div className="card-body">
+          <h5 className="card-title text-center">{product.title}</h5>
+          <p className="card-text text-danger text-center mb-4 mt-4">Price:{product.price}</p>
+          <Prod key={product.id} data={product} />
+        </div>
+      </div>
     );
 }
 
 export default Product;
+

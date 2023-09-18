@@ -40,14 +40,7 @@ function App() {
       <Route path='/' element={<Layout />}>
         <Route index element={<Home />} />
         <Route path='shop' element={<ListProducts />} />
-          {/*<Route path='blog' element={<Blog />} />
-        <Route path='about' element={<About />} />
-        <Route path='contact' element={<Contact />} />
-        <Route path='login' element={<Login />} />
-        <Route path='signup' element={<Signup />} />
-  <Route path='forgotpasword' element={<Forgotpasword />} />*/}
         <Route path='cart' element={<Cart />} />
-        {/*<Route path='checkout' element={<Checkout />} />*/}
         <Route path='details' element={<Details />} /> 
       </Route>
     </Routes>

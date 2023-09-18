@@ -28,6 +28,7 @@ const featuredproducts = () => {
               src={product.image}
               className="card-img-top img-fluid"
               alt="Product"
+              style={{ height: '200px'}}
             />
             <div className="card-body mx-auto">
               <h5 className="cart-text mb-3">{product.title}</h5>

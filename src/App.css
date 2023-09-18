@@ -197,12 +197,64 @@ input:focus {
 
 .classCardName {
   text-align: center;
-  width: 15rem;
-  margin: 5px;
+  width: 100%; /* Cambia el ancho a 100% para hacerlo responsive */
+  margin: 1rem; /* Utiliza márgenes más pequeños */
+}
+
+.card-img-custom {
+  max-width: 100%; /* Escala la imagen para que se ajuste al ancho de la tarjeta */
 }
 
 .card-body-details {
   text-align: center;
+}
+
+/*List products*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card-deck {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 576px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-img-top-custom {
+  width: 100%;
+  height: 400px;
+  object-fit: fill;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
 }
 
 input.form-control.text-center {
@@ -1249,3 +1301,5 @@ footer .footer-title {
     width: 30rem !important;
   }
 }
+
+
