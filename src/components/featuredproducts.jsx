@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const featuredproducts = () => {
-  const [products, setProducts] = useState ([]);
+  const [products, setProducts] = useState([]);
 
   useEffect(() => {
     // Hacer una solicitud GET a la API para obtener los datos de productos
